@@ -1,11 +1,11 @@
 def my_collect(array)
   i = 0
-  result = []
+  conclusion = []
   while i < array.length
-    result.push(yield array[i])
+    conclusion.push(yield array[i])
       i += 1
   end
-  result
+  conclusion
 end
 
 array = ["Tim Jones", "Tom Smith", "Jim Campagno"]
